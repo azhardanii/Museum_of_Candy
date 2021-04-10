@@ -1,0 +1,74 @@
+body {
+    background-color: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
+}
+
+.can-body h2 {
+    color: #ea1c2c;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.can-body p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 2;    
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text-red {
+    color: #ea1c2c !important;
+}
+
+.navbar.scrolled {
+    background: #ddc4dd;
+    opacity: .95;
+    transition: background .6s;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+}
+
+#mainNavbar .nav-link {    
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {    
+    color: #ea1c2c;
+}
+
+#canCaption h1 {
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+footer p, footer a {
+    margin: 0;
+    color: white;
+    font-size: 1.4rem;
+}
+
+footer a:hover {
+    color: #ea1c2c;
+}
+
+.myfoot {
+    background-color: #d6a2d6;
+}
+
+@media (max-width: 992px) {
+    #canCaption {
+        padding-top: 2rem;
+    }
+    
+    #canCaption h1 {
+        font-size: 3rem;
+    }
+}
